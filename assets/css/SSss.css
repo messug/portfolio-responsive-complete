@@ -259,8 +259,7 @@ img {
 .about__container {
   row-gap: 2rem;
   text-align: center;
-  background-color: rgb(246, 230, 211);
-  background-image: -moz-repeating-radial-gradient(20px);
+  background-color: antiquewhite;
 }
 
 .about__subtitle {
@@ -341,11 +340,9 @@ img {
 
 .skills__img {
   border-radius: 2rem;
-  image-orientation: none;
+  image-orientation: inherit;
   justify-content: right;
-  align-items: center;
-  width: 400px;
-
+  width: 200px;
 
 }
 
